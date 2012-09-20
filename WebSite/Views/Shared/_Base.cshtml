@@ -24,11 +24,12 @@
 </head>
 <body>
 
-@RenderBody();
+@RenderBody()
 
 	 <!-- Footer
 	  ================================================== -->
-	  <footer class="footer" title="@ServiceWare.WebSite.MvcApplication.Version.ToString()">
+	  <footer class="footer">
+		<span title="@ServiceWare.WebSite.MvcApplication.Version.ToString()">Copyright © ServiceWare Ltd 2010-@DateTime.Today.Year</span>
 		<p class="pull-right"><a href="#">Back to top</a></p>
 	  </footer>
 
