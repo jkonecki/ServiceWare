@@ -10,6 +10,13 @@ namespace ServiceWare.WebSite
 {
 	public class MvcApplication : System.Web.HttpApplication
 	{
+		public static readonly Version Version;
+
+		static MvcApplication()
+		{
+			Version = typeof(MvcApplication).Assembly.GetName().Version;
+		}
+
 		protected void Application_Start()
 		{
 			AreaRegistration.RegisterAllAreas();
