@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace MvcWebRole1.Controllers
+namespace ServiceWare.WebSite.Controllers
 {
 	public class HomeController : Controller
 	{
